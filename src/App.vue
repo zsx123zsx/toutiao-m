@@ -11,6 +11,7 @@
     <van-button type="default">默认按钮</van-button>
     <van-button type="warning">警告按钮</van-button>
     <van-button type="danger">危险按钮</van-button>
+    <div class="a"></div>
   </div>
 </template>
 
@@ -19,4 +20,10 @@ export default {
   name: 'App'
 }
 </script>
-<style lang="less"></style>
+<style lang="less">
+.a {
+  width: 375px;
+  height: 56px;
+  background-color: pink;
+}
+</style>
